@@ -1,0 +1,49 @@
+// CSE 20311
+// Lab Report for Lab 4
+// By: Arda Kurama
+
+User Perspective:
+
+	This program displays and runs various calculations on ND Football statistics between
+	1900 - 2023. It asks the user what they would like to do, and gives the user 8 options:
+		(1) Display the record for a given year
+		(2) Display years with at least 'n' wins
+		(3) Display years with at least 'n' losses
+		(4) Display whether there were more wins or losses for a given year
+		(5) Display years with more wins than losses
+		(6) Display years with more losses than wins
+		(7) Display years with the same number of wins and losses
+		(8) Exit
+	After entering your choice, the program has various other prompts for more information,
+	based on the choice chosen. For (1), you must enter a specific year. For (2) and (3), you 
+	must enter a number n. For (4), you must enter a specific year. Various statistics and years 
+	are then correctly labeled and outputted. The program continues to display and prompt 
+	for calculations until an (8) is entered for the initial choice. If you enter a value outside
+	of (1) - (8), the program displays an error and lets you reinput your choice. If you enter a
+	year outside of 1900 - 2023, the program also displays an error and lets you reinput your
+	desired year.
+
+Programmer Perspective:
+
+	This program uses eleven functions along with main to run the program. It is mainly driven
+	through a while loop in main that calls various functions until an (8) is entered for
+	choice. The program first calls display(), decides whether the choice was inside the range
+	of (1) - (8), then calls various functions inside a switch function depending on the choice
+	inputted. The function yearToArr() translates inputted years to their correct array positions.
+	functions formatting(int, int) and printYears(int, int) help print lists of years depending
+	on the inputted choice. The function record() determines and outputs the number of wins
+	and losses in a given year. The function nWins() outputs the years with at least n wins. The
+	function nLosses() ouptuts the years with n losses. The function winOrLoss() determines whether
+	there were more wins or losses in a given year. moreWins() outputs the years with more wins
+	than losses, moreLosses() outputs the years with more losses than wins, and tie() outputs
+	the years with the same number of wins and losses.
+
+Evaluation:
+
+	Created program in parts, recompiling and resolving syntax errors as I went. Organized code
+	through functions, which made coding higher level much easier without getting bogged down
+	by lower level code. After code ran with no syntax errors, evaluated for logic errors by
+	manually checking each operation. Specifically checked for all edge cases, and manually 
+	verified that the display and errors were outputted at the right time under the right 
+	conditions. There are no cases under the given instructions where the program produces 
+	incorrect results.

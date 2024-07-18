@@ -1,0 +1,31 @@
+// CSE 20311
+// Lab Report for Lab 7
+// By: Arda Kurama
+
+User Perspective:
+
+  This program is an educational tool for middle schoolers to learn basic information
+  about US states. It can read in files from the command line or manually after the 
+  executable has run. It has five options. It can list all the information read in from
+  the CSV file given. It can print the year any given state joined the union. It can 
+  list all of the states in ascending order based on the year they joined the union. It
+  also has two test modes. The user can guess states based on given capitals, or guess
+  capitals based on given states.
+
+Programmer Perspective:
+
+  This program is split into 3 files with 8 functions and main, with argc and argv[] from
+  the command line and a struct declared in the header file. The program is mainly run
+  through a while and switch statement in main, looping through the display and choices
+  and calling the correct functions from the function file as needed.
+
+Evaluations:
+
+  Began by planning higher level code and then worked on lower level functions. Started
+  with properly reading in and printing the information from the CSV file, then expanded
+  to manipulate the data and create the other modes. Created the bubble sort last as that
+  was the most difficult. Ran into a problem where the struct would permanently change
+  after being sorted, and overcame this challenge by storing the states struct into a
+  seperate struct before performing the sort. I compiled often and solved syntax and logic
+  errors as I went. After the program ran with no errors, I manually checked each operation
+  and verified the display and errors outputted at the right time.

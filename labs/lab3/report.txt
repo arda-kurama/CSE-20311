@@ -1,0 +1,34 @@
+// CSE 20311
+// Lab Report for Lab 3
+// By: Arda Kurama
+
+User Perspective:
+
+	This program displays and runs a working 4-function calculator to help verify 3rd-grade
+	math skills. It asks the user what they would like to do, and gives five options for
+	addition (1), for subtraction (2), for multiplication (3), for division (4), and to exit
+	(5). After entering your choice, it asks the user what two numbers they would like to
+	use in the calculation. The program then displays the correct calculation. If a user
+	enters an integer outside of 1-5, the program displays an error message. If the user
+	attempts to divide by 0, the program displays an error message. The program continues to
+	display and prompt for calculations until a 5 is entered for the initial choice.
+
+Programmer Perspective:
+
+	This program uses five functions along with main to run the program. It is mainly driven
+	through a while loop in main that calls various functions until a 5 is entered for choice.
+	The program first calls display(), decides whether choice was inside range 1-5, then calls
+	the calc(int) function, where a switch function decides which operation function to call
+	based on the inputted choice. In calc(int), the program asks for the two numbers to input,
+	and sends the numbers to the correct function to do the correct calculation, along with
+	outputting the answer with printf(). 
+
+Evaulation:
+
+	Created program in parts, recompiling and resolving syntax errors as I went. Organized code
+	through functions, which made coding higher level much easier without getting bogged down by
+	lower level code. After function ran with no syntax errors, evaluated for logic errors by
+	manually calculating each operation. Specifically checked for all edge cases, and manually 
+	verified that the display and errors were outputted at the right time and under the right
+	conditions. There are no cases under the given instructions where the program produces 
+	incorrect results. 

@@ -1,0 +1,33 @@
+// Lab Report for Lab 2
+// By: Arda Kurama
+
+User Perspective:
+
+	This program creates a vertical graph using ASCII characters for the graph:
+
+		y = 2sin(x)cos(2x) + 3
+
+	This function is hard coded into the program and is displayed between x = 0.0 and
+	x = 20.0, as shown in the first line at the top of the graph. After the graph has
+	been printed its (x, y) values of its maximum and minimum are displayed.
+
+Programmer Perspective:
+
+	This program uses printf to display hardcoded function and its range.
+	Function initializes yMin and yMax to compare to y values later. Program then
+	loops from 0.0 - 20.0 in 0.1 increments and recalculates y for each increment. 
+	If y = 0, a "*" is printed. If y > yMax, the x and y values for that maximum are
+	stored in xMax and yMax. If y < yMin, the x and y values for that minimum are stored
+	in xMin and yMin. While y > 0, a "#" is displayed for each 0.1 increment of y to
+	give a visual representation of the function in ASCII characters. The (x, y) 
+	values of the maximum and minimum of the function on its range are then shown.
+
+Evaluation:
+
+	Created program in parts, recompiling and resolving syntax errors as I went. After
+	function ran with no syntax errors, evaluated for logic errors by manually calculating
+	the (x, y) values for the maximum and minimum of the function. Also verified "#" plot
+	by comparing it to a plot of the same function on a graphing calculator. There are no
+	cases in the hardcoded range for the hardcoded function where the program produces 
+	incorrect results, but ASCII plot would have to be changed to showcase negative 
+	values on different functions.

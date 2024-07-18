@@ -1,0 +1,41 @@
+User Perspective:
+
+	This program calculates a nxn linear transformation on an n-dimensional vector via the
+	A * x = b formula where:
+
+		A = a11 a12 ... a1n   x = x1   b = b1 
+				a21 a22 ... a2n       x2			 b2
+				...										...			 ...
+				an1 an2 ... ann 			xn			 bn
+
+	Program first asks for input of 1xn vector x. Then asks for input of nxn matrix A.
+	Then outputs trainsformation vector b.
+
+Programmer Perspective:
+
+	Program first uses printf and scanf to ask and store for desired dimension n. Then uses 
+	printf to prompt vector input, and uses a for-loop, array with size n, and scanf to store a
+	vector x. Then uses printf to prompt matrix input, and uses a for-loop, array with size n * n,
+	and scanf to store a matrix A. Then uses printf and a double for loop to display transformed
+	vector b.
+
+  Vector b is calculated by multiplying the correct index of the matrix and vector 
+	arrays and storing them in the temporary variable 'transformation.' A counter variable was used
+	to keep track of correct indexed location in each array. matrix[j + i] * vector[j] could not
+	be used due to the double for loop giving i + j values of 0, 1, 1, 2, (when n = 2) which calculated 
+	incorrect transformations. Adding and resetting the counter at the right positions in the
+	double for-loop allowed for counter + i to give values of 0, 1, 2, 3 (when n = 2) to correctly
+	index the arrays. The formula for the transformation can be seen below:
+
+		b = a11x1 + a12x2 + ... + a1nxn
+				a21x1 + a22x2 + ... + a2nxn
+				...
+				an1x1 + an2x2 + ... + annxn
+
+Evaluation:
+
+	Initially created a program to just run this calculation in 2d, and decided to expand to
+	any n-dimensional input later. After solving all syntax errors, evaluated for logic errors by 
+	testing different matrix and vector inputs by hand. There are no cases where it produces
+	incorrect results, as the logic is sound and the program has been manually tested.
+

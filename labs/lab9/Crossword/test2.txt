@@ -1,0 +1,63 @@
+
+Anagram Crossword Puzzle Generator
+----------------------------------
+
+LOOP was not used
+
+IF was not used
+
+Solution:
+-----------------
+|...............|
+|...............|
+|..F............|
+|..U....COMPUTER|
+|..N....S..R....|
+|..C..N.E..O....|
+|..T..O....G....|
+|.FIGHTINGIRISH.|
+|..O..R....A....|
+|..N..E.U..M....|
+|.....D.N..M....|
+|KEYBOARD..I....|
+|.....M....NOT..|
+|..CODE....G....|
+|...............|
+-----------------
+
+Crossword Puzzle:
+-----------------
+|###############|
+|###############|
+|## ############|
+|## ####        |
+|## #### ## ####|
+|## ## # ## ####|
+|## ## #### ####|
+|#             #|
+|## ## #### ####|
+|## ## # ## ####|
+|##### # ## ####|
+|        ## ####|
+|##### ####   ##|
+|##    #### ####|
+|###############|
+-----------------
+
+CLUES:
+Location | Direction | Anagram
+   1,  7 |    Across | GTSIIIHRHGINF
+  10,  3 |      Down | RIGMROAPNGM
+   5,  5 |      Down | ADEOTEMRN
+   7,  3 |    Across | UREOPCTM
+   0, 11 |    Across | DYKBAERO
+   2,  2 |      Down | TIOUNCFN
+   2, 13 |    Across | EOCD
+   7,  9 |      Down | DUN
+   7,  3 |      Down | SEC
+  10, 12 |    Across | OTN
+
+LOOP was STILL not used
+
+IF was STILL not used
+

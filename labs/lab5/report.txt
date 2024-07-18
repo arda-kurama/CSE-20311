@@ -1,0 +1,30 @@
+// CSE 20311
+// Lab Report for Lab 5
+// By: Arda Kurama
+
+User Perspective:
+
+  This program creates, manages, and displays various operations on 
+  a simple text-based database. It asks the user to read in sayings
+  from a pre-existing text file, then allows for the user to add
+  more sayings to the database, search for sayings based on key words
+  or phrases, and allows the user to print and save all of the data 
+  on a new text file.
+
+Programmer Perspective:
+
+  The program uses 6 functions along with main to set up read and write
+  file pointers along with all of the operations on the database. It
+  reprints the display and asks the user for their desired choice after
+  every action, using a switch statment to call and run the necessary
+  functions.
+
+Evaluation:
+
+  Created the program in parts, recompiling and resolving syntax errors
+  as I went. Planned higher level code first, organized large problem
+  into smaller problems with their own functions, and then solved smaller
+  problems with lower level code. After program ran with no syntax errors,
+  evaluated for logic errors by manually checking each operation. Also
+  manually verified that display and errors outputted at the right time.
+  

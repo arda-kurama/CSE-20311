@@ -1,0 +1,42 @@
+// CSE 20311
+// Lab Report for Lab 6
+// By: Arda Kurama
+
+User Perspective:
+
+  This program is a C rendition of the cellular automata "Conway's Game of Life."
+  It has two primary modes, manual and automatic. If no file is entered with the
+  executable, a user is greeted with a home screen that allows for all of the
+  options in the assignment sheet to be played manually. In manual mode, 
+  the user can read the rules and the commands list, enter and remove cells 
+  on their own, run a manually entered shape generation-by-generation, run 
+  the game automatically forever, and quit the game. In batch mode, the user can
+  enter a file with a list of commands and automate the entire process. In random
+  mode, half of the pixels on the screen are randomly chosen to be 'alive' or
+  'dead,' and the animation for that given screen is play automatically. If a
+  user does enter a file in with the executable, the program enters automatic
+  mode, and enters all of the commands from that file onto the board and runs the
+  game, similar to the manual batch mode.
+
+Programmer Perspective:
+
+  This program is split into 3 files with 10 functions and main, with argc and
+  argv[] inputs from the command line to run the game. Each function has a specific
+  task, and the majority of the functionality is organized in main, where main will
+  call the correct functions to complete any task chosen by the user, through a tree of 
+  if-statements, while loops, and a switch statement.
+
+Evaluation:
+
+  Began by making the interactive mode, expanded to allow for full functionality
+  through my menu screen. Organized all of the code into seperate functions and 
+  files, removed all repetative code, and then added file reading and command line
+  arguments. Planned higher level code in main first, and then created solid
+  functions to complete repetative low level tasks. Compiled often and solved
+  syntax and logic errors as I went. After program ran with no errors, I manually
+  checked each option and verified that display and errors outputted at the right
+  time. Scenes inspired by wikipedia article for Conway's Game of Life, and example
+  still lifes, oscillators, and spaceships shown. Scene 5 shows a glider gun, but the
+  default board size is too small for it to work forever. At SZ = 40 it outputs two
+  gliders before exploding and oscillating, but at SZ = 42 it would output infinite
+  gliders, which I find very interesting.
