@@ -9,7 +9,7 @@ All notable projects are in the "labs" directory, and NOT in an "inlab" director
 **lab2** - ASCII plot of hardcoded trig function 2sin(x)cos(2x) + 3, Mortgage calculator, Multiplication table </br>
 **lab3** - 4-Function calculator with menu, Cartesian to polar coordinate calculator, Quadratic equation calculator </br>
 **lab4** - Stat generator for class grades, Stat generator for ND football record, Prime number algorithm </br>
-**lab5** - Letter distribution calculator for any file input, Simple database for string </br>
+**lab5** - Letter distribution calculator for any file input, Simple database for strings </br>
 **lab6** - Conway's Game of Life </br>
 **lab7** - Distance between any number of points calculator, US States trivia game </br>
 **lab8** - Bouncing ball animation, Spinning polygon animation, Symbolic typewriter </br>
