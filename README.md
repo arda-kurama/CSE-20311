@@ -1,5 +1,5 @@
 ## About
-This is a backup of all the projects worked on for CSE 20311 Fundamentals of Computing at the University of Notre Dame. 
+This is a backup of all the projects worked on during the Spring semester of my freshman year for CSE 20311 Fundamentals of Computing at the University of Notre Dame. 
 All programs were programmed in C on an ND-hosted virtual Linux machine. All graphics are done through the gfx library using Xming X11 display.
 All naming, commenting, and coding styles are catered to course requirements.
 
